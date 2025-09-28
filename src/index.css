@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-from: #2b99ff;
+  --primary-to: #07a47a;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--primary-from), var(--primary-to));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  @apply bg-white;
+}
