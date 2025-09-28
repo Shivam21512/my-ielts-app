@@ -1,31 +1,37 @@
-# IELTS Pro — Home Page (React + Vite + Tailwind)
+# IELTS Pro - Frontend Assignment
 
-This is a single-page responsive home page for a fictional IELTS Institute built with React, Vite, Tailwind CSS, Framer Motion and React Icons.
+A responsive and modern homepage for a fictional IELTS Institute, built with **React + Vite + TailwindCSS**.
 
-## Features
-- Modern responsive UI (mobile-first)
-- Hero section with CTA and image
-- Feature cards (Speaking Practice, Mock Tests, AI Band Score, Personalized Coaching)
-- Student testimonials
-- Footer with contact & links
-- Smooth entrance animations via Framer Motion
-- Clean React component structure
+## 🚀 Live Demo
+👉 [View Live Website](https://my-ielts-app.vercel.app/)
 
-## Setup (local)
-1. Clone or create a new repo and copy project files.
-2. Install dependencies:
-   ```bash
-   npm install
-3.Initialize tailwind if not done (the config files are included). If starting from scratch run:
+## 📌 Features
+- Responsive Navbar with mobile menu
+- Hero section with headline, subtext, CTA buttons, and banner
+- 3 Feature cards (Speaking Practice, Mock Tests, AI Band Score)
+- Student Testimonials section
+- Clean Footer with contact info
+- Smooth animations using Framer Motion
+- Icons from lucide-react
 
-4.npx tailwindcss init -p
+## 🛠️ Tech Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
 
+## 📂 Project Setup
 
-(Provided tailwind.config.cjs and postcss.config.cjs are already included in this project.)
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/my-ielts-app.git
 
-5.Run the dev server:
+# Move into folder
+cd my-ielts-app
 
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-
-
-Open the app shown by Vite (usually http://localhost:5173).
